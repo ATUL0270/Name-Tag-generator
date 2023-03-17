@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: bisque;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    background-color: rgb(50,50,50);
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tag{
+    width: 30%;
+    padding: 20px;
+    background-color: cadetblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.tag:hover{
+    transform: translateY(-10px) scale(1.05);
+}
+
+input{
+    padding:25px;
+    border: 1px solid ridge;
+    width: 80%;
+    box-sizing: border-box;
+    outline: none;
+    font: 100 1.2rem "arial";
+    background-color:wheat;
+    color: white;
+}
+
+button{
+    padding: 25px;
+    border: 1px solid ridge;
+    font: 100 1.2rem "arial";
+    outline: none;
+   cursor: pointer;
+   width: 19%; 
+   transition: background-color 0.5s ;
+   background-color: brown;
+
+}
+button:hover{
+    background-color: red;
+}
